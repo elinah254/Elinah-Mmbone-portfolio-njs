@@ -54,7 +54,7 @@ const Projects: React.FC = () => {
 			description:
 				"My personal portfolio website built with Next.js and Tailwind CSS.",
 			technologies: ["Next.js", "Typescript" , "Tailwind" ],
-			imageUrl: "/images/portfolio.png",
+			imageUrl: "/images/myweb.png",
 			// githubUrl: "https://github.com/elinah254/portfolio",
 			liveUrl: "https://elinah-mmbone.pipeops.net/",
 			category: "frontend",
