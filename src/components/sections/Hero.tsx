@@ -21,19 +21,29 @@ const Hero: React.FC = () => {
 		<>
 			<section
 				id="home"
-				className="min-h-screen flex items-center justify-center relative overflow-hidden">
+				className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 md:pt-15">
 				<div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900"></div>
 				<div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]"></div>
 
 				<div className="container mx-auto px-6 relative z-10">
 					<div className="text-center max-w-4xl mx-auto">
 						<div className="mb-8">
-							<div className="w-32 h-32 mx-auto mt-6 mb-5 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
+							{/* <div className="w-32 h-32 mx-auto mt-6 mb-5 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1"> */}
+							{/* <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center"> */}
+							{/* <img
+										src="/images/elinah.jpg"
+										className="rounded-full "
+									/> */}
+
+							<div className="w-52 h-52 mx-auto mt-6 mb-5 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
 								<div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
 									<img
 										src="/images/elinah.jpg"
-										className="rounded-full "
+										alt="Elinah Mmbone"
+										className="rounded-full w-full h-full object-cover"
 									/>
+
+
 								</div>
 							</div>
 						</div>
@@ -80,10 +90,10 @@ const Hero: React.FC = () => {
 								className="text-slate-400 hover:text-white transition-colors duration-200">
 								<Linkedin className="w-6 h-6" />
 							</a>
-							
+
 
 							<a
-							// An email link that doesnt depend on system apps or default apps - it opens the email in the browser
+								// An email link that doesnt depend on system apps or default apps - it opens the email in the browser
 								href="https://mail.google.com/mail/?view=cm&fs=1&to=mmboneelinah@gmail.com"
 								target="_blank"
 								rel="noopener noreferrer"
