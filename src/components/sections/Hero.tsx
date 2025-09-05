@@ -71,20 +71,32 @@ const Hero: React.FC = () => {
 
 						<div className="flex justify-center space-x-6">
 							<a
-								href="https://github.com/yourusername"
+								href="https://github.com/elinah254"
 								className="text-slate-400 hover:text-white transition-colors duration-200">
 								<Github className="w-6 h-6" />
 							</a>
 							<a
-								href="https://linkedin.com/in/elinah-mmbone"
+								href="https://www.linkedin.com/in/elinah-mmbone-8369b0296/"
 								className="text-slate-400 hover:text-white transition-colors duration-200">
 								<Linkedin className="w-6 h-6" />
 							</a>
+							
+
 							<a
-								href="mailto:mmboneelinah@gmail.com"
+							// An email link that doesnt depend on system apps or default apps - it opens the email in the browser
+								href="https://mail.google.com/mail/?view=cm&fs=1&to=mmboneelinah@gmail.com"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="text-slate-400 hover:text-white transition-colors duration-200">
 								<Mail className="w-6 h-6" />
 							</a>
+
+
+							{/* <a
+								href="mailto:mmboneelinah@gmail.com"
+								className="text-slate-400 hover:text-white transition-colors duration-200">
+								<Mail className="w-6 h-6" />
+							</a> */}
 						</div>
 					</div>
 				</div>

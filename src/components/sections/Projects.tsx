@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
 			id: "1",
 			title: "Clutter Haven",
 			description:
-				"Decluttering app built during my capstone project with Next.js, TypeScript, and Tailwind CSS.",
+				"A decluttering app frontend that helps users organize items with responsive design, intuitive navigation, and smooth backend integration.",
 			technologies: ["Next.js", "TypeScript", "Tailwind"],
 			imageUrl: "/images/clutter-haven.png",
 			// githubUrl: "https://github.com/elinah254/Clutter-Haven",
@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
 			description:
 				"An e-learning platform designed to enhance digital education accessibility.",
 			technologies: ["React", "TypeScript", "Tailwind", "Node.js"],
-			imageUrl: "/images/ynlearn.png",
+			imageUrl: "/images/Lynlearn.png",
 			// githubUrl: "https://github.com/elinah254/Lynlearn",
 			liveUrl: "https://lynlearn.pipeops.net/",
 			category: "fullstack",
@@ -43,9 +43,9 @@ const Projects: React.FC = () => {
 			description:
 				"A full-featured todo app with CRUD operations and localStorage integration.",
 			technologies: ["React", "TypeScript", "Tailwind"],
-			imageUrl: "/images/todo.png",
+			imageUrl: "/images/todo-app.png",
 			// githubUrl: "https://github.com/elinah254/todo-app",
-			liveUrl: "#",
+			liveUrl: "https://unknown-drain.pipeops.net/",
 			category: "frontend",
 		},
 		{
@@ -53,10 +53,10 @@ const Projects: React.FC = () => {
 			title: "Portfolio Website",
 			description:
 				"My personal portfolio website built with Next.js and Tailwind CSS.",
-			technologies: ["Next.js", "Tailwind"],
+			technologies: ["Next.js", "Typescript" , "Tailwind" ],
 			imageUrl: "/images/portfolio.png",
 			// githubUrl: "https://github.com/elinah254/portfolio",
-			liveUrl: "#",
+			liveUrl: "https://elinah-mmbone.pipeops.net/",
 			category: "frontend",
 		},
 	];
