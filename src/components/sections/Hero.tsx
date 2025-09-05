@@ -49,19 +49,19 @@ const Hero: React.FC = () => {
 						</div>
 
 						<h1 className="text-5xl md:text-7xl font-bold mb-5">
-							<span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
+							<span className="bg-gradient-to-r from-green-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
 								Elinah Mmbone
 							</span>
 						</h1>
 
-						<h2 className="text-2xl mb-1 font-semibold text-slate-200">
+						<h2 className="text-2xl mb-1  font-semibold text-slate-200">
 							Full-Stack Developer
 						</h2>
 
 						<p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
 							MERN stack developer blending technical expertise with creativity to deliver seamless digital experiences.
 							<br />•{" "}
-							<span className="text-purple-400">
+							<span className="text-purple-800">
 								Frontend enthusiast
 							</span>{" "}
 						</p>
